@@ -1,0 +1,29 @@
+div{
+    /* background-color: aqua; */
+    /* background-image: url(./childcarer_and_girl_drawing\ \(1\).jpg); */
+    /* background-repeat: repeat-y; */
+}
+.mid_container{
+    /* width: auto; */
+}
+  :empty{
+    border:10px , solid , red
+  }
+  .p {
+    width: auto;
+    height: 100px;
+
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  .fir{
+    background-color: rgb(156, 156, 236);
+  }
+  .sec{
+    background-color: rgb(107, 58, 58);
+  }
+  .thir{
+    background-color: aquamarine;
+  }

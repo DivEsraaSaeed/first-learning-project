@@ -1,0 +1,224 @@
+.body {
+        width: 1440px;
+        height: 4780px;
+        background-color: #8e8b8b;
+}
+
+:root {
+        --light-color: #e6e6e6;
+        --dark-color: #6B1223;
+        font-family: cairo;
+}
+
+.body.Flowers {
+        background-color: #D9D9D9;
+        font-family: cairo;
+}
+/* START_NAVBAR */
+.navbar {
+        background-color: var(--light-color);
+        font-family: cairo;
+}
+
+.navbar .navbar-nav .nav-link {
+        color: black;
+}
+
+.navbar .navbar-nav .nav-link .active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+        color: var(--dark-color);
+}
+
+/* END_NAVBAR */
+
+/* START_WELCOME */
+.welcome {
+        background-image: url(./069d75acea61649d7166041e7a614486.png);
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 140px 0;
+}
+
+.h{
+        color: #6B1223;
+        font-family: cairo;
+        text-align: left;
+        margin-left: 250px;
+}
+.hh{
+        color: #000000;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 200px;
+}
+
+/* END_WELCOME  */
+/* START_SECTIONS */
+.label {
+        border: #5A622F solid;
+        border-width: 2px;
+        color: var(--dark-color);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: var(--dark-color);
+        font-size: larger;
+        font-weight: 600;
+        size: 20px;
+}
+
+.btn-buy {
+        color: #000000;
+        border-radius: 20px;
+        border:none;
+}
+ .co, .btn-buy{
+        color: var(--dark-color);
+
+ }
+
+.flo_1 {
+        text-align: left;
+        background-image: url(./ff.png);
+        padding: 400px 200px;
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover
+}
+
+.flo_2 {
+        text-align: left;
+        background-image: url(./ff.png);
+        padding: 500px 200px;
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.flo_3 {
+        text-align: left;
+        background-image: url(./ff.png);
+        padding: 400px 200px;
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/* END_SECTIONS */
+
+/* START_ABOUTUS */
+.who{
+        color: var(--dark-color);
+        text-align:right;
+        font-weight:400;
+}
+.grey{
+        color: #9D9A9B
+        ;
+}
+.btn-1{
+       background-color:var(--dark-color);
+        /* padding: 20px; */
+        border: none;
+        color: white;
+        padding:2px 20px;
+}
+.btn-2{
+         background-color: white;
+         border: 1px solid #6B1223;
+         /* border-color: #6B1223; */
+        /* padding: 20px; */
+        /* border: soild; */
+        /* border-color: var(--dark-color); */
+        color: var(--dark-color);
+        padding:2px 20px;
+        align-items: start;
+}
+/* END_ABOUTUS */
+
+/* START_SPECIAL PRODUCTS */
+.hh4{
+        color: var(--dark-color);
+        font-size: medium;
+        font: weight 100%;;
+
+}
+.card{
+        border-radius: 50px !important;
+        margin: 10px 30px;
+        overflow: hidden;
+}.card-img-bottom{ border-radius: 20px;}
+.card{
+border-radius: 20px;
+}.card-body{
+        border-radius: 20px;
+}
+/* .card_1 {
+        background-image: url(./66.png);
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.card_2 {
+        background-image: url(./66.png);
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.card_3 {
+        background-image: url(./66.png);
+        background-position: center 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+} */
+
+/* END_SPECIAL PRODUCTS  */
+/* STRAT_BG */
+.BG{
+        background-image: url(./BG.png);
+        opacity: 50%;
+        height: 299px;
+}
+
+
+.image-container {
+        position: relative;
+        width: 100%;
+      }
+      
+      .overlay {
+        position: absolute;
+       
+        width: 100%;
+        height: 50vh;
+        background-image: url('./BG.png');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5; /* Opacity for the image only */
+      }
+      
+      .text-content {
+        position: absolute;
+        color: white;
+        z-index: 1; /* Make sure the text is above the image */
+      }
+
+
+
+
+
+      .btn-btn{
+        background-color: var(--dark-color);
+        color: white;
+        padding:2px 20px;
+        border-radius: 20px;
+      }
+      .card-text{
+        color: #A79100;
+      }

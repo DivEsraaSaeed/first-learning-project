@@ -1,0 +1,156 @@
+/* General Styles */
+.container_nav {
+    /* width: 10px; */
+    height: 50px;
+    padding: auto;
+    margin-left: 10px;
+    background-color: #3894a9;
+}
+
+.NN {
+    color: #333;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.display-4 {
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3894a9;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.b00 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #3894a9;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.c00 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: #464f52;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.d00 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #3894a9;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.e00 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: #464f52;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+div.contain {
+    background-color: #a97a38;
+}
+
+/* .container text-center {
+    background-color: #0b414e;
+} */
+.btn {
+    background-color: #b6aeac;
+    border-radius: 20px;
+}
+
+*/.one::first-letter {
+    display: inline-block;
+    color: #007bff;
+    font-size: larger;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.OOO::first-letter {
+    display: inline-block;
+    color: #007bff;
+    font-size: larger;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.menu-section {
+    background-color: #56acb5;
+}
+
+h1,
+h2,
+h3 {
+    color: #387379;
+}
+
+.container text-center {
+    background-color: #007bff;
+}
+
+header {
+    background: #77d8e7;
+}
+
+.about-section {
+    background: #F0F0F0;
+}
+
+.menu-section {
+    background: #3117b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+}
+
+.footer-section p {
+    margin-bottom: 0;
+}
+
+.blockquote-footer {
+    color: #5A5A5A;
+}
+
+.blockquote {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-left: .25rem solid #007bff;
+}
+
+.a {
+    font-style: normal;
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .menu-section .row>div {
+        margin-bottom: 30px;
+    }
+}
